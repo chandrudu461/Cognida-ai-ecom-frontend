@@ -68,7 +68,7 @@ class App extends Component {
         cartList: prevState.cartList.map(eachCartItem => {
           if (eachCartItem.id === productObject.id) {
             const updatedQuantity = eachCartItem.quantity + product.quantity
-            return {...cartList, quantity: updatedQuantity}
+            return {...eachCartItem, quantity: updatedQuantity}
           }
           return eachCartItem
         }),
