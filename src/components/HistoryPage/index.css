@@ -1,7 +1,66 @@
-.history-page{
-    display: block;
-}
+/* historyPage.css */
 
-.history-page-ul {
+/* Style for the entire history page container */
+.history-page {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the "Previously Checked Products" heading */
+  .history-page h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the list of products */
+  .history-page-ul {
+    list-style: none;
+    padding: 0;
     display: flex;
-}
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Style for each individual product card */
+  .history-page-ul .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the product card title */
+  .history-page-ul .product-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Style for the product card description */
+  .history-page-ul .product-card p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Style for the product card image */
+  .history-page-ul .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the Header component if not already defined */
+  /* You can customize this further based on your Header component */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add more CSS styles as needed */
+  

@@ -12,6 +12,7 @@ import CartContext from './context/CartContext'
 
 import './App.css'
 import HistoryPage from './components/HistoryPage'
+import Dashboard from './components/Dashboard'
 
 class App extends Component {
   state = {
@@ -104,6 +105,7 @@ class App extends Component {
           />
           <ProtectedRoute exact path="/history" component={HistoryPage} />
           <ProtectedRoute path="/cart" exact component={Cart} />
+          {/* <ProtectedRoute exact path="/dashboard" component={Dashboard} /> */}
           <Route path="/not-found" component={NotFound} />
           <Redirect to="not-found" />
         </Switch>

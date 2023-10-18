@@ -87,6 +87,12 @@ const Header = props => {
                 History
               </Link>
             </li>
+
+            <li className="nav-menu-item">
+              <Link to="/dashboard" className="nav-link">
+                Dashboard
+              </Link>
+            </li>
           </ul>
           <button
             type="button"
@@ -114,6 +120,15 @@ const Header = props => {
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
                 alt="nav products"
+                className="nav-bar-img"
+              />
+            </Link>
+          </li>
+          <li className="nav-menu-item-mobile">
+            <Link to="/history" className="nav-link">
+              <img
+                src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
+                alt="nav history"
                 className="nav-bar-img"
               />
             </Link>
