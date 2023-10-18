@@ -1,0 +1,7 @@
+.history-page{
+    display: block;
+}
+
+.history-page-ul {
+    display: flex;
+}

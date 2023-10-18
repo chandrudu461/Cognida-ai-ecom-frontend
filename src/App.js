@@ -11,6 +11,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 import CartContext from './context/CartContext'
 
 import './App.css'
+import HistoryPage from './components/HistoryPage'
 
 class App extends Component {
   state = {
@@ -101,7 +102,8 @@ class App extends Component {
             path="/products/:id"
             component={ProductItemDetails}
           />
-          <ProtectedRoute exact path="/cart" component={Cart} />
+          <ProtectedRoute exact path="/history" component={HistoryPage} />
+          <ProtectedRoute path="/cart" exact component={Cart} />
           <Route path="/not-found" component={NotFound} />
           <Redirect to="not-found" />
         </Switch>

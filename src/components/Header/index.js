@@ -81,6 +81,12 @@ const Header = props => {
                 {renderCartItemsCount()}
               </Link>
             </li>
+
+            <li className="nav-menu-item">
+              <Link to="/history" className="nav-link">
+                History
+              </Link>
+            </li>
           </ul>
           <button
             type="button"

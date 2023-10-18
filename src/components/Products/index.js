@@ -1,5 +1,4 @@
 import AllProductsSection from '../AllProductsSection'
-import PrimeDealsSection from '../PrimeDealsSection'
 
 import Header from '../Header'
 
@@ -9,7 +8,6 @@ const Products = () => (
   <>
     <Header />
     <div className="product-sections">
-      <PrimeDealsSection />
       <AllProductsSection />
     </div>
   </>
